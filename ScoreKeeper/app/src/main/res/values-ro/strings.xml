@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="teambtitle">Scor\nEchipa B</string>
+    <string name="reset">Resetează</string>
+    <string name="goal">Gol</string>
+    <string name="football">Poză cu un stadion</string>
+    <string name="faults">Faulturi</string>
+    <string name="fault">Fault</string>
+    <string name="teamatitle">Scor\nEchipa A</string>
+</resources>

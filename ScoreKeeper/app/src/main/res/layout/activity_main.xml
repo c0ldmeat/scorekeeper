@@ -7,6 +7,7 @@
     tools:context="com.example.android.scorekeeper.MainActivity">
 
     <ImageView
+        android:contentDescription="@string/football"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
@@ -39,7 +40,7 @@
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
                     android:paddingTop="8dp"
-                    android:text="Team A\nScore"
+                    android:text="@string/teamatitle"
                     android:textColor="#fff"
                     android:textSize="16sp" />
 
@@ -50,7 +51,7 @@
                     android:fontFamily="sans-serif-bold"
                     android:freezesText="true"
                     android:gravity="center_horizontal"
-                    android:text="0"
+                    android:text="@string/zero"
                     android:textColor="#fff"
                     android:textSize="56sp" />
             </LinearLayout>
@@ -60,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:onClick="submitGoalTeamA"
-                android:text="Goal"
+                android:text="@string/goal"
                 android:textColor="#fff" />
 
             <LinearLayout
@@ -78,7 +79,7 @@
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
                     android:paddingTop="0dp"
-                    android:text="Faults"
+                    android:text="@string/faults"
                     android:textColor="#fff"
                     android:textSize="16sp" />
 
@@ -92,7 +93,7 @@
                     android:freezesText="true"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
-                    android:text="0"
+                    android:text="@string/zero"
                     android:textColor="#fff"
                     android:textSize="26sp" />
             </LinearLayout>
@@ -102,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:onClick="submitFaultTeamA"
-                android:text="Fault"
+                android:text="@string/fault"
                 android:textColor="#fff" />
 
 
@@ -111,7 +112,7 @@
         <View
             android:layout_width="3dp"
             android:layout_height="match_parent"
-            android:background="#fff"></View>
+            android:background="#fff" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -135,7 +136,7 @@
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
                     android:paddingTop="8dp"
-                    android:text="Team B\nScore"
+                    android:text="@string/teambtitle"
                     android:textColor="#fff"
                     android:textSize="16sp" />
 
@@ -146,7 +147,7 @@
                     android:fontFamily="sans-serif-bold"
                     android:freezesText="true"
                     android:gravity="center_horizontal"
-                    android:text="0"
+                    android:text="@string/zero"
                     android:textColor="#fff"
                     android:textSize="56sp" />
             </LinearLayout>
@@ -156,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:onClick="submitGoalTeamB"
-                android:text="Goal"
+                android:text="@string/goal"
                 android:textColor="#fff" />
 
             <LinearLayout
@@ -174,7 +175,7 @@
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
                     android:paddingTop="0dp"
-                    android:text="Faults"
+                    android:text="@string/faults"
                     android:textColor="#fff"
                     android:textSize="16sp" />
 
@@ -188,7 +189,7 @@
                     android:freezesText="true"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
-                    android:text="0"
+                    android:text="@string/zero"
                     android:textColor="#fff"
                     android:textSize="26sp" />
             </LinearLayout>
@@ -198,7 +199,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:onClick="submitFaultTeamB"
-                android:text="Fault"
+                android:text="@string/fault"
                 android:textColor="#fff" />
 
 
@@ -213,7 +214,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:onClick="reset"
-        android:text="Reset"
+        android:text="@string/reset"
         android:textColor="#fff" />
 
 </RelativeLayout>

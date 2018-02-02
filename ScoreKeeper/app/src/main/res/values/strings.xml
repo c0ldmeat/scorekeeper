@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Score Keeper</string>
+    <string name="teamatitle">Team A\nScore</string>
+    <string name="teambtitle">Team B\nScore</string>
+    <string name="zero">0</string>
+    <string name="goal">Goal</string>
+    <string name="fault">Fault</string>
+    <string name="faults">Faults</string>
+    <string name="reset">Reset</string>
+    <string name="football">Football stadium image</string>
 </resources>
